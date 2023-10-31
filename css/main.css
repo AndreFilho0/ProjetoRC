@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 
 body{
     margin: 0 auto;
@@ -35,6 +37,18 @@ main{
 .redes-sociais{
     width: 10%;
     float: right;
+}
+.menu ul li > div{
+    display: none;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 1px;
+    margin: 2px;
+    
+}
+.menu ul li:hover > div{
+    display: block;
 }
 .menu ul li  {
     display: inline-block;
@@ -87,4 +101,16 @@ div.busca{
     border-radius: 20px;
     
 
+}
+.imagens-meio{
+    text-align: center;
+}
+
+.imagens-meio img{
+    display: inline-block;
+    margin: 10px 5px;
+    border-radius: 20px;
+    width: 150px;
+    
+    
 }
