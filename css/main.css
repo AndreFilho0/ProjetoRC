@@ -21,8 +21,7 @@ body{
     background:var(--cor0);
     font-family:'Times New Roman', Times, serif;
     font-style: italic;
-    rgb(232,230,219)
-    rgb(236,234,230);
+    
 }
 
 .menu-principal{
@@ -104,9 +103,9 @@ div.busca{
 
 }
 .mapa{
+    width: 20%;
     width: 300px;
     height: 300px;
-    margin: auto;
     background: #ffffff;
     border-radius: 20px;
     float: right;
@@ -146,6 +145,8 @@ div.busca{
 
 }
 .roubada{
+    display: block;
+    margin: auto;
     width: 100%;
 
 }
@@ -165,6 +166,30 @@ div.busca{
     margin: 1px 10px;
     border-radius: 5px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.585);
+}
+footer {
+    padding: 0px;
+    background-color: var(--cor1);
+    height: 300px;
+    width: 100%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.477);
+    
+}
+footer {
+    bottom: 0px;
+}
+.informa{
+    width: 20%;
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+    float: left;
+
+}
+.informa p{
+    margin: 40px 0px 0px 0px;
+    margin-top: 40px;
+    
 }
 
 
