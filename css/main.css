@@ -61,6 +61,7 @@ p{
 .menu-principal > ul li {
     display: inline-block;
     width: 140px;
+    margin-left: 10px;
      
 }
 .menu-principal > ul li a:hover{
@@ -69,10 +70,6 @@ p{
 }
 
 
-.redes-sociais-menu {
-
-    
-}
 .novidades{
     display: flex;
     flex-direction: row;
@@ -95,6 +92,9 @@ p{
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     color:var(--cor6);
+    border: 2px solid rgba(77, 5, 3, 0.929) ;
+    border-radius: 10px;
+    
 }
 .novidades img:hover{
     width:420px;
@@ -153,7 +153,7 @@ footer{
     box-shadow: 1px 1px 50px rgba(0, 0, 0, 0.596);
     border-radius: 10px;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     
 
@@ -162,7 +162,7 @@ footer{
 .rodape h1,p {
     color: #ffffff;
     font-style: normal;
-    font-size: 17px;
+    font-size: 15px;
 
 }
 

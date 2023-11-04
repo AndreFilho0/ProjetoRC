@@ -7,6 +7,7 @@
     <title>Real Calçados</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slide.css">
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
 </head>
@@ -44,22 +45,64 @@
         </div>
     </header>
 
-    <img class="roubada" src="imagens/roubado.png"  alt="img inicial">
+    <section class="painel-slide">
+
+        <div class="slides">
+
+            <input class="input" type="radio" name="slide" id="slide1" checked >
+            <input class="input" type="radio" name="slide" id="slide2">
+            <input class="input" type="radio" name="slide" id="slide3">
+            <input class="input" type="radio" name="slide" id="slide4">
+            <input class="input" type="radio" name="slide" id="slide5">
+            
+            <div class="slide s1">
+
+                <img class="roubada" src="imagens/roubado.png"  alt="img inicial">
+
+            </div>
+
+            <div class="slide">
+                <img class="roubada" src="imagens/anti-sc.jpg"  alt="img inicial">
+            </div>
+            <div class="slide">
+                <img class="roubada" src="imagens/carroo.jpg"  alt="img inicial">
+            </div>
+            <div class="slide">
+                <img class="roubada" src="imagens/tenisss.jpg"  alt="img inicial">
+            </div>
+            <div class="slide">
+                <img class="roubada" src="imagens/roubado.png"  alt="img inicial">
+            </div>
+           
+            
+            
+            
+        </div>
+    </section>
+    <div class="navigation">                           
+        <label class="bar" for="slide1"></label>
+        <label class="bar" for="slide2"></label>
+        <label class="bar" for="slide3"></label>
+        <label class="bar" for="slide4"></label>
+        <label class="bar" for="slide5"></label>
+      </div>
+
 
     <div class="novidades">
         <div>
             <h1>Principais novidades</h1>
             
         </div>
-    
-        <div>
-            <p>#referencia:</p>
-            <img src="imagens/tenis e pé.png" alt=""></div>
-        <div>
+           
+         <div >
+            <p class="img1">#referencia1111:</p>
+            <img class="img1" src="imagens/tenis e pé.png" alt="">
+         </div>  
+        <div >
             <p>#referencia:</p>
             <img src="imagens/sapato casual.png" alt="">
         </div>
-        <div>
+        <div >
             <p>#referencia:</p>
             <img src="imagens/salto e pé.png" alt="">
         </div>
@@ -123,7 +166,7 @@
         
     </footer>
 
-    
+    <script src="js/slide.js"></script>
 </body>
 
 
