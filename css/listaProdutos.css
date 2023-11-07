@@ -36,11 +36,15 @@
     
         
 }
-.produto img {
+.produto > img {
     width: 200px;
     height: 200px;
     text-align: center;
     
+}
+.descricao img {
+    width: 25px;
+    height: 25px;
 }
 
 .descricao {
