@@ -99,7 +99,7 @@ p{
 .novidades img:hover{
     width:420px;
     height: 420px;
-    transition: width 0.3s, height 0.3s;
+    transition: 1s;
 }
 .principais-marcas{
     margin-top: 10px;
