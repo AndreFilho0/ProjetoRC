@@ -27,14 +27,18 @@ body{
 a{
     color: #4A4946;
     text-decoration: none;
+    font-variant: small-caps;
+    
 }
 h1{
     color: var(--cor6);
     font-style: italic;
+    font-variant: small-caps;
 }
 p{
     color: #000000;
     font-style: italic;
+    font-variant: small-caps;
 
 }
 

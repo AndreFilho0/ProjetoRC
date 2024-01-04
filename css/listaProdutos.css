@@ -17,11 +17,51 @@ body{
     background-color: #000000;
 }
 
+
+.filtrador{
+    position: fixed;
+    display: flex;
+    background-color: #C4C3B9;
+    width: 100%;
+    border-radius: 5px;
+
+
+}
+.filtro{
+    margin: 0px 0px 0px auto;
+    cursor: pointer;
+    
+}
+
+.opsFiltro{
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    flex-direction: column;
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    transform: translate(-81%,0%);
+    border-radius: 10px;
+
+}
+.show {
+    display: flex;
+  }
+
+
+
+
+
 .conteudo{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     align-items: center;
+    background-size: contain;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.511);
+    background-attachment: fixed;
+    padding: 30px;
     
 
 }
